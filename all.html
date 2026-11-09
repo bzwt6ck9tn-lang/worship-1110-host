@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#5c4636" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="description" content="浸宣同工會｜敬拜講稿｜2026.11.10｜帶領：Annie" />
+  <title>浸宣同工會｜敬拜講稿｜2026.11.10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+/* 浸宣同工會｜敬拜講稿｜2026.11.10｜帶領用手機講稿 */
+:root {
+  --paper: #F6F0E8;
+  --paper-soft: #efe6da;
+  --ink: #241e18;
+  --ink-soft: #4a3a2c;
+  --muted: #8a7358;
+  --spine: #5c4636;
+  --spine-text: #f3e9dc;
+  --accent: #a07858;
+  --accent-deep: #8b6b4a;
+  --fu: #7a4533;
+  --end: #6b5340;
+  --rule: #e0d4c4;
+  --line: #d4c0a8;
+  --now: #d9c4a0;
+  --serif: "Noto Serif TC", "Songti TC", "PMingLiU", "MingLiU", "Source Han Serif TC", serif;
+  --sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --nav-h: 3.6rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--nav-h) + 0.85rem + var(--safe-top));
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.85;
+  min-height: 100dvh;
+}
+
+a { color: var(--accent-deep); }
+
+/* —— Header —— */
+.app-header {
+  padding: calc(1.55rem + var(--safe-top)) 1.25rem 1.05rem;
+}
+.header-inner {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-bottom: 1.05rem;
+  border-bottom: 1px solid var(--rule);
+}
+.eyebrow {
+  margin: 0 0 0.4rem;
+  font-family: var(--serif);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  color: var(--accent-deep);
+}
+.app-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.85rem;
+  line-height: 1.35;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+.app-date {
+  margin: 0.45rem 0 0;
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+}
+.app-meta {
+  margin: 0.45rem 0 0;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+}
+.app-note {
+  margin: 0.4rem 0 0;
+  font-size: 0.76rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+}
+
+/* —— Sticky nav —— */
+.nav-chips {
+  position: sticky;
+  top: 0;
+  z-index: 70;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0.5rem 1.1rem;
+  padding-top: calc(0.5rem + var(--safe-top));
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  background: rgba(246, 240, 232, 0.96);
+  border-bottom: 1px solid var(--rule);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.nav-chips::-webkit-scrollbar { display: none; }
+.nav-chips a {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.4rem;
+  padding: 0.35rem 0.85rem;
+  text-decoration: none;
+  font-family: var(--serif);
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--ink-soft);
+  background: var(--paper-soft);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+.nav-chips a.active {
+  color: var(--spine-text);
+  font-weight: 600;
+  background: var(--spine);
+  border-color: var(--spine);
+}
+.nav-chips a:focus-visible {
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 2px;
+}
+
+/* —— Page body —— */
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem calc(4.5rem + var(--safe-bottom));
+}
+
+.section {
+  scroll-margin-top: calc(var(--nav-h) + 0.85rem + var(--safe-top));
+  margin: 0 0 2.4rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+.section:last-of-type { border-bottom: none; }
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 0 0 0.85rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+.section-title {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  line-height: 1.4;
+}
+.time-badge {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--spine);
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+}
+
+.song-meta {
+  margin: -0.35rem 0 0.7rem;
+  font-size: 0.86rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+}
+
+/* —— Scripture —— */
+.scripture {
+  margin: 0 0 1rem;
+  padding: 0.85rem 1rem;
+  background: var(--paper-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+}
+.scripture cite {
+  display: block;
+  margin: 0 0 0.4rem;
+  font-style: normal;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--accent-deep);
+}
+.scripture p {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  line-height: 1.95;
+  color: var(--ink);
+}
+
+/* —— Host cues —— */
+.cue {
+  margin: 0 0 0.9rem;
+  padding: 0.8rem 0.95rem;
+  background: #fbf7f1;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+}
+.cue-pray {
+  background: #f3ebe1;
+}
+.cue-label {
+  display: inline-block;
+  margin: 0 0 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--accent-deep);
+}
+.cue p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: var(--ink-soft);
+}
+
+/* —— Sing-order checklist —— */
+.order-box {
+  margin: 0 0 1.25rem;
+  padding: 0.85rem 0.9rem 0.75rem;
+  background: var(--paper-soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.order-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.55rem;
+}
+.order-title {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--accent-deep);
+}
+.order-reset {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0.15rem 0.2rem;
+  font-family: inherit;
+  font-size: 0.76rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.order-reset:focus-visible {
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 2px;
+}
+.order-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.25rem;
+  margin: 0;
+  padding: 0;
+}
+.order-arrow {
+  color: var(--muted);
+  font-size: 0.85rem;
+  padding: 0 0.05rem;
+  user-select: none;
+}
+.order-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  min-height: 2.35rem;
+  padding: 0.2rem 0.4rem 0.2rem 0.3rem;
+  border: 1px dashed var(--line);
+  border-radius: 999px;
+  background: var(--paper);
+  font-family: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.order-step.is-now {
+  border-style: solid;
+  border-color: var(--spine);
+  background: var(--now);
+  box-shadow: 0 0 0 2px rgba(92, 70, 54, 0.12);
+}
+.order-step.is-done {
+  opacity: 0.55;
+  border-style: solid;
+  border-color: var(--rule);
+  background: transparent;
+}
+.order-step.is-done .badge { text-decoration: line-through; }
+.step-mark {
+  width: 0.95rem;
+  height: 0.95rem;
+  border: 1.5px solid var(--accent-deep);
+  border-radius: 3px;
+  background: var(--paper);
+  flex: 0 0 auto;
+  position: relative;
+}
+.order-step.is-done .step-mark {
+  background: var(--spine);
+  border-color: var(--spine);
+}
+.order-step.is-done .step-mark::after {
+  content: "";
+  position: absolute;
+  left: 0.22rem;
+  top: 0.02rem;
+  width: 0.28rem;
+  height: 0.5rem;
+  border: solid var(--spine-text);
+  border-width: 0 1.6px 1.6px 0;
+  transform: rotate(45deg);
+}
+.step-count {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+}
+.order-note {
+  margin: 0.55rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+
+/* —— Badges 正／副／尾 —— */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.15rem;
+  padding: 0.12rem 0.48rem;
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  color: #fff;
+}
+.badge-zheng { background: var(--spine); }
+.badge-fu { background: var(--fu); }
+.badge-end { background: var(--end); }
+
+/* —— Lyrics —— */
+.lyric-block {
+  margin: 0 0 1.05rem;
+  padding: 0.85rem 0.95rem 0.95rem;
+  background: #fffdf9;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+}
+.lyric-block.is-now {
+  border-color: var(--spine);
+  box-shadow: 0 0 0 2px rgba(92, 70, 54, 0.1);
+  background: #fffaf2;
+}
+.lyric-block .badge { margin-bottom: 0.55rem; }
+.lyrics {
+  font-family: var(--serif);
+  font-size: 1.18rem;
+  line-height: 2.05;
+  color: var(--ink);
+}
+.lyrics p { margin: 0 0 0.15rem; }
+.lyrics p:last-child { margin-bottom: 0; }
+.lyric-hint {
+  margin: 0.55rem 0 0;
+  font-size: 0.78rem;
+  color: var(--accent-deep);
+  letter-spacing: 0.06em;
+}
+
+/* —— YouTube —— */
+.yt-link { margin: 0 0 0.95rem; }
+.yt-link a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--accent-deep);
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  -webkit-tap-highlight-color: transparent;
+}
+.yt-link a:hover,
+.yt-link a:focus-visible {
+  color: var(--spine-text);
+  background: var(--accent);
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* —— Footer —— */
+.app-footer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1.25rem calc(1.6rem + var(--safe-bottom));
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  line-height: 1.7;
+}
+.app-footer p { margin: 0; }
+
+@media (min-width: 420px) {
+  .app-title { font-size: 2rem; }
+  .lyrics { font-size: 1.26rem; }
+  .scripture p { font-size: 1.14rem; }
+}
+
+</style>
+</head>
+<body>
+  <header class="app-header" id="top">
+    <div class="header-inner">
+      <p class="eyebrow">浸宣同工會</p>
+      <h1 class="app-title">敬拜講稿</h1>
+      <p class="app-date">2026.11.10</p>
+      <p class="app-meta">帶領：Annie</p>
+      <p class="app-note">帶領用講稿｜含歌詞與帶領句</p>
+    </div>
+  </header>
+
+  <nav class="nav-chips" id="nav" aria-label="快速導覽">
+    <a href="#open">開場</a>
+    <a href="#song1">無言的讚頌</a>
+    <a href="#transit">間場</a>
+    <a href="#song2">恩典之路</a>
+    <a href="#close">結束</a>
+  </nav>
+
+  <main>
+    <!-- 開場 -->
+    <section class="section" id="open">
+      <div class="section-head">
+        <h2 class="section-title">開場</h2>
+      </div>
+
+      <blockquote class="scripture">
+        <cite>詩篇 100:1–2</cite>
+        <p>普天下當向耶和華歡呼！</p>
+        <p>你們當樂意事奉耶和華，</p>
+        <p>當來向祂歌唱！</p>
+      </blockquote>
+
+      <div class="cue">
+        <span class="cue-label">帶領</span>
+        <p>我們同心來到主面前，以歡喜的心向祂歡呼，樂意事奉祂、向祂歌唱。</p>
+      </div>
+    </section>
+
+    <!-- 第一首 -->
+    <section class="section song-section" id="song1">
+      <div class="section-head">
+        <h2 class="section-title">第一首　《無言的讚頌》</h2>
+      </div>
+      <p class="song-meta">粵語｜沙田浸信會</p>
+      <p class="yt-link"><a href="https://www.youtube.com/watch?v=5gyQFFRFEiA" target="_blank" rel="noopener noreferrer">YouTube｜聆聽</a></p>
+
+      <article class="lyric-block" id="lyric-s1-a">
+        <span class="badge badge-zheng">段1</span>
+        <div class="lyrics">
+          <p>無言無語　亦無聲音可聽</p>
+          <p>神的大能　卻在世上知曉</p>
+          <p>日頭冒升　又回歸於出處</p>
+          <p>神的恩惠　又似日光普照</p>
+        </div>
+      </article>
+
+      <article class="lyric-block" id="lyric-s1-b">
+        <span class="badge badge-fu">段2</span>
+        <div class="lyrics">
+          <p>諸天說述主的榮耀　穹蒼傳頌神大能力</p>
+          <p>每日每夜發出詩句　讚美全能上帝</p>
+        </div>
+      </article>
+
+      <blockquote class="scripture">
+        <cite>詩篇 19:1–2</cite>
+        <p>諸天述說神的榮耀；</p>
+        <p>穹蒼傳揚他的手段。</p>
+        <p>這日到那日發出言語；</p>
+        <p>這夜到那夜傳出知識。</p>
+      </blockquote>
+    </section>
+
+    <!-- 間場／過渡 -->
+    <section class="section" id="transit">
+      <div class="section-head">
+        <h2 class="section-title">間場</h2>
+      </div>
+
+      <blockquote class="scripture">
+        <cite>箴言 3:5–6</cite>
+        <p>你要專心仰賴耶和華，</p>
+        <p>不可倚靠自己的聰明，</p>
+        <p>在你一切所行的事上都要認定祂，</p>
+        <p>祂必指引你的路。</p>
+      </blockquote>
+
+      <div class="cue">
+        <span class="cue-label">帶領</span>
+        <p>專心仰賴耶和華，祂必指引我們的路；我們用《恩典之路》回應。</p>
+      </div>
+    </section>
+
+    <!-- 第二首 -->
+    <section class="section song-section" id="song2">
+      <div class="section-head">
+        <h2 class="section-title">第二首　《恩典之路》</h2>
+      </div>
+      <p class="song-meta">普通話</p>
+      <p class="yt-link"><a href="https://www.youtube.com/watch?v=YaJ5gof0YNQ" target="_blank" rel="noopener noreferrer">YouTube｜聆聽</a></p>
+
+      <article class="lyric-block" id="lyric-s2-z">
+        <span class="badge badge-zheng">正</span>
+        <div class="lyrics">
+          <p>祢是我的主　引我走正義路</p>
+          <p>高山或低谷　都是祢在保護</p>
+          <p>萬人中唯獨　祢愛我認識我</p>
+          <p>永遠不變的應許　這一生都是祝福</p>
+        </div>
+      </article>
+
+      <article class="lyric-block" id="lyric-s2-f">
+        <span class="badge badge-fu">副</span>
+        <div class="lyrics">
+          <p>一步又一步　這是恩典之路</p>
+          <p>祢愛　祢手　將我緊緊抓住</p>
+          <p>一步又一步　這是盼望之路</p>
+          <p>祢愛　祢手　牽引我走這人生路</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- 結束 -->
+    <section class="section" id="close">
+      <div class="section-head">
+        <h2 class="section-title">結束</h2>
+      </div>
+
+      <blockquote class="scripture">
+        <cite>詩篇 90:17</cite>
+        <p>願主我們神的榮美歸於我們身上。</p>
+        <p>願祢堅立我們手所做的工；</p>
+        <p>我們手所做的工，願祢堅立。</p>
+      </blockquote>
+
+      <div class="cue cue-pray">
+        <span class="cue-label">短禱</span>
+        <p>主啊，願祢的榮美歸於我們，堅立我們的生命與事奉、我們手所做的工。奉主名求，阿們。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p>浸宣同工會｜敬拜講稿｜2026.11.10</p>
+    <p>供帶領使用</p>
+  </footer>
+
+  <script>
+/* 浸宣同工會｜敬拜講稿｜2026.11.10 */
+(function () {
+  "use strict";
+
+  function $(sel, root) {
+    return (root || document).querySelector(sel);
+  }
+  function $all(sel, root) {
+    return Array.prototype.slice.call((root || document).querySelectorAll(sel));
+  }
+
+  function syncNavVar() {
+    var nav = $("nav.nav-chips");
+    if (!nav) return;
+    document.documentElement.style.setProperty("--nav-h", nav.getBoundingClientRect().height + "px");
+  }
+
+  function navOffset() {
+    var nav = $("nav.nav-chips");
+    return (nav ? nav.getBoundingClientRect().height : 56) + 8;
+  }
+
+  function scrollToTarget(el, id) {
+    if (!el) return;
+    var top = el.getBoundingClientRect().top + window.pageYOffset - navOffset();
+    window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+    if (id && history.replaceState) history.replaceState(null, "", "#" + id);
+  }
+
+  function initNavSpy() {
+    var nav = $("nav.nav-chips");
+    if (!nav) return;
+    var links = $all("a[href^='#']", nav);
+    var sections = links.map(function (a) {
+      return document.getElementById((a.getAttribute("href") || "").slice(1));
+    });
+
+    links.forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        var href = a.getAttribute("href") || "";
+        if (href.charAt(0) !== "#") return;
+        var id = href.slice(1);
+        var el = document.getElementById(id);
+        if (!el) return;
+        e.preventDefault();
+        scrollToTarget(el, id);
+      });
+    });
+
+    function update() {
+      var probe = navOffset() + 12;
+      var idx = 0;
+      sections.forEach(function (sec, i) {
+        if (sec && sec.getBoundingClientRect().top <= probe) idx = i;
+      });
+      links.forEach(function (a, i) {
+        a.classList.toggle("active", i === idx);
+        if (i === idx) a.setAttribute("aria-current", "true");
+        else a.removeAttribute("aria-current");
+      });
+    }
+
+    var ticking = false;
+    window.addEventListener("scroll", function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        ticking = false;
+        update();
+      });
+    }, { passive: true });
+    window.addEventListener("resize", function () {
+      syncNavVar();
+      update();
+    });
+    syncNavVar();
+    update();
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initNavSpy);
+  else initNavSpy();
+})();
+
+</script>
+</body>
+</html>
